@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CS412AndroidApp</string>
+    <string name="challenges_list">
+        1. Supporting different screen sizes, devices, and OS versions\n\n
+        2. Making the app use less battery\n\n
+        3. Handling weak or lost internet connections\n\n
+        4. Keeping app data safe when switching between screens\n\n
+        5. Protecting user data and keeping the app secure\n\n
+        6. Optimizing performance on low-memory or low-end devices
+    </string>
+</resources>
