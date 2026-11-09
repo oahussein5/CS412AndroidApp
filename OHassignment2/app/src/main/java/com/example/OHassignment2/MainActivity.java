@@ -99,9 +99,13 @@ public class MainActivity extends AppCompatActivity {
 
         btnStartImplicit.setOnClickListener(v -> {
             Intent intent = new Intent("com.example.cs412androidapp.SHOW_CHALLENGES");
-            intent.setPackage(getPackageName()); // keep it within this app for this exercise
+            intent.setPackage(getPackageName());
             startActivity(intent);
         });
+
+        Button btnViewImage = findViewById(R.id.btnViewImage);
+        btnViewImage.setOnClickListener(v ->
+                startActivity(new Intent(MainActivity.this, ThirdActivity.class)));
     }
 
     @Override
